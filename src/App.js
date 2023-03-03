@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+// import Basketballapi from './Basketballapi';
+// import Test2 from './Test2';
+import Video from './Video';
+// import Videocom from './Videocom';
+import ImagesApi from './ImagesApi';
+import YouTubeVideos from './Youtube';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+  
+  <h1>Data fetching from Api </h1>
+  <ImagesApi/>
+
+{/* <Basketballapi/> */}
+
+
+{/* {/* <Test2/> */}
+
+<Video/>
+<YouTubeVideos/>
+
+
+  </>
   );
 }
 
